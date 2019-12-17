@@ -17,7 +17,7 @@ A simple Spring boot application that demonstrates the usage of RESTful API usin
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/praveenspk/SpringBoot.git
+git clone https://github.com/praveenspk/spring-boot.git
 ```
 
 **2. Create MySQL database**
