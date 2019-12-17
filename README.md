@@ -66,15 +66,15 @@ The server will start on port 2020.
 
 The app defines following CRUD APIs.
 
-    GET /api/employee
+    GET /emp/list
     
-    POST /api/employee
+    POST /emp/save
     
-    GET /api/employee/{id}
+    GET /emp/employee/{id}
     
-    PUT /api/employee
+    PUT /emp/employee
     
-    DELETE /api/employee/{id}
+    DELETE /emp/employee/{id}
 
 You can test them using postman or any other rest client.
 
