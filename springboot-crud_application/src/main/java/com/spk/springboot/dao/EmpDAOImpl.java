@@ -45,7 +45,7 @@ public class EmpDAOImpl implements EmployeeDAO {
 	public void saveEmp(Employee emp) {
 
 		Session currentSession = entityManager.unwrap(Session.class);
-		currentSession.save(emp);
+		currentSession.saveOrUpdate(emp);
 
 	}
 
