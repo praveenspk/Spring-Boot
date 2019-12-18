@@ -1,4 +1,4 @@
-# Spring boot, Hibernate, MySQL REST API
+# Spring boot, Hibernate, JPA, MySQL REST API
 
 A simple Spring boot application that demonstrates the usage of RESTful API using Spring boot, Hibernate and MySQL. 
 
@@ -9,6 +9,7 @@ A simple Spring boot application that demonstrates the usage of RESTful API usin
 * MySQL
 * JPA
 * Hibernate
+* Spring Data JPA
 * Maven
 * Eclipse Oxygen
 
