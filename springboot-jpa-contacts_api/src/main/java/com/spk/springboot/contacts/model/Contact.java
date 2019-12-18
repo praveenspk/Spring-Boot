@@ -33,22 +33,22 @@ public class Contact implements Serializable {
 	@Column
 	private String name;
 	@Column
-	private String mobile;
+	private Integer mobile;
 	@Column
 	private String email;
 	@Column
 	private String address;
 
-	public Contact(Integer id, String name, String mobile, String email, String address) {
+	public Contact() {
+	}
+
+	public Contact(Integer id, String name, Integer mobile, String email, String address) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.mobile = mobile;
 		this.email = email;
 		this.address = address;
-	}
-
-	public Contact() {
 	}
 
 	public Integer getId() {
@@ -67,11 +67,11 @@ public class Contact implements Serializable {
 		this.name = name;
 	}
 
-	public String getMobile() {
+	public Integer getMobile() {
 		return mobile;
 	}
 
-	public void setMobile(String mobile) {
+	public void setMobile(Integer mobile) {
 		this.mobile = mobile;
 	}
 
