@@ -1,6 +1,6 @@
-# Spring boot, Hibernate, Spring Data JPA, MySQL and REST API
+# Spring boot-jpa-ContactsAPI
 
-A simple Spring boot application that demonstrates the usage of RESTful API using Spring boot, Hibernate and MySQL. 
+A simple Spring boot application that demonstrates the usage of RESTful API using Spring boot, , Hibernate, Spring Data JPA, MySQL and REST API. 
 
 ## Tools and Technologies used
 
